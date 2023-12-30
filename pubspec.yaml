@@ -1,0 +1,54 @@
+name: flutter_app3
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.8.3
+  sqflite: any
+  path_provider: ^2.1.1
+  sqflite_common_ffi: ^2.3.0+4
+  # audioplayers: ^0.20.1
+  shared_preferences: ^2.2.2
+  audioplayers_android: ^4.0.3
+  just_audio: ^0.9.35
+  audio_video_progress_bar: ^2.0.1
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+  firebase_core_platform_interface: ^5.0.0
+  firebase_messaging: ^14.7.9
+  cloud_firestore_web: ^3.8.10
+  firebase_auth: ^4.15.3
+  firebase_storage: ^11.5.6
+  file_picker: ^6.1.0
+  dio: ^5.4.0
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/c1.PNG
+  - assets/background.PNG
+  - assets/c2.PNG
+  - assets/c3.PNG
+  - assets/c4.PNG
+  - assets/c5.PNG
+  - assets/c6.PNG
+  - assets/song4.jpg
+  - assets/song1.mp3
+  - assets/song2.mp3
+  - assets/Let-Me-Down-Slowly---Alec-Benjamin-mp3(musicdownload.cc).mp3
+  - assets/Stay(PaglaSongs).mp3
+  - assets/Shawn_Mendes_-_Stitches.mp3
+  - assets/the-cradle-of-your-soul-15700.mp3
